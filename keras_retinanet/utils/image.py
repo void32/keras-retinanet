@@ -18,6 +18,8 @@ from __future__ import division
 import numpy as np
 import cv2
 from PIL import Image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 from .transform import change_transform_origin
 
