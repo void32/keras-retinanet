@@ -128,7 +128,6 @@ class FilterDetections(keras.layers.Layer):
     ):
         # RWM config
         nms_threshold  = 0.25
-        max_detections = 3000
 
         """ Filters detections using score threshold, NMS and selecting the top-k detections.
 
